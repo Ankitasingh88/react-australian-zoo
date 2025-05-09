@@ -1,0 +1,23 @@
+.mainPage {
+    display: flex;
+    height: 100%;
+  }
+  
+  .mainPage > .sidebar {
+    flex: 0 0 200px;
+  }
+  
+  .mainPage > .mainContent {
+    flex-grow: 1;
+  }
+
+  @media (max-width: 768px) {
+    .mainPage {
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      height: auto;
+    }
+  
+
+  }

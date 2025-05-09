@@ -1,0 +1,23 @@
+.reptilesPage {
+    display: flex;
+    height: 100%;
+  }
+  
+  .reptilesPage > .sidebar {
+    flex: 0 0 200px;
+  }
+  
+  .reptilesPage > .mainContent {
+    flex-grow: 1;
+  }
+
+    @media (max-width: 768px) {
+    .reptilesPage {
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      height: auto;
+    }
+  
+
+  }

@@ -1,0 +1,23 @@
+.birdsPage {
+    display: flex;
+    height: 100%;
+  }
+  
+  .birdsPage > .sidebar {
+    flex: 0 0 200px;
+  }
+  
+  .birdsPage > .mainContent {
+    flex-grow: 1;
+  }
+
+    @media (max-width: 768px) {
+    .birdsPage {
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      height: auto;
+    }
+  
+
+  }

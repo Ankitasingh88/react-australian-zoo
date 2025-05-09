@@ -1,0 +1,24 @@
+.mammalsPage {
+    display: flex;
+    height: 100%;
+    color: beige;
+  }
+  
+  .mammalsPage > .sidebar {
+    flex: 0 0 200px;
+  }
+  
+  .mammalsPage > .mainContent {
+    flex-grow: 1;
+  }
+
+  @media (max-width: 768px) {
+    .mammalsPage {
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      height: auto;
+    }
+  
+
+  }
