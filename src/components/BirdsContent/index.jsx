@@ -29,9 +29,9 @@ const BirdsContent = ({ userHasClicked, currentAnimal }) => {
 
       {!userHasClicked && 
        <div>
-       <h1> Welcome On the Bird's Page  🦜🦢🦅</h1>
-        <p>"Birds at Paradise's Zoo","Birds are among the most diverse and fascinating creatures on Earth, known for their bright plumage.</p>
-        <p> melodic calls, and incredible flight abilities. At Nature's Zoo, you can experience a wide variety of birds, from powerful raptors to colorful songbirds!"</p>
+       <h1> Welcome To Bird's Page  🦜🦢🦅</h1>
+        <p>Birds at Paradise's Zoo","Birds are among the most diverse and fascinating creatures on Earth, known for their bright plumage.</p>
+        <p>Melodic calls, and incredible flight abilities. At Nature's Zoo, you can experience a wide variety of birds, from powerful raptors to colorful songbirds!!</p>
        </div>}
 
       {userHasClicked && currentAnimal && (

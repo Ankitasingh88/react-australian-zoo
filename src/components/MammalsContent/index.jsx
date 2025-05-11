@@ -29,7 +29,7 @@ const MammalsContent = ({ userHasClicked, currentAnimal }) => {
        
       {!userHasClicked &&
       <div>
-      <h1> Welcome On Mammals Page 🦘🐨🐻</h1> 
+      <h1> Welcome To Mammal's Page 🦘🐨🐻</h1> 
         <p>"Mammals are some of the most fascinating creatures on Earth, known for their warm-blooded nature, fur or hair, and ability to nurse their young. </p>
         <p> At Paradise's Zoo, we house a diverse collection of mammals, from playful marsupials to powerful predators!"</p>
       </div>}

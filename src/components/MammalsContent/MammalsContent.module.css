@@ -48,11 +48,12 @@
   .description p {
     padding: 10px;
   }
-
-  h1 {
-    text-align: center;
-  }
   
-  p {
+   .mammalsContent p {
+    padding: 20px;
+    display: block;
+    text-decoration: solid;
     text-align: center;
+    font-weight: 300;
+    font-size: x-large;
   }

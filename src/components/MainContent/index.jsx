@@ -28,10 +28,13 @@ const MainContent = ({ userHasClicked, currentAnimal }) => {
       {!userHasClicked && 
        <div>
       <h1>!!Welcome to Paradise Zoo🦘🐨🦜🐍!!</h1>
-       <h2>"Experience the Wild Like Never Before!" </h2>
-       <p>"Step into Paradise's Zoo, where adventure meets education! Explore diverse habitats, discover amazing animals, and learn about the importance of wildlife conservation. </p> 
-       <p> Whether you love majestic mammals, fascinating reptiles, or colorful birds, we have something for everyone!"</p>
-       </div>
+      <h2>"Experience the Wild Like Never Before!" </h2>
+      <p>Step into Paradise's Zoo, where adventure meets education! Explore diverse habitats </p>
+      <p>You will discover amazing animals, and learn about the importance of wildlife conservation. </p>
+      <p>Whether you love majestic mammals, fascinating reptiles, or colorful birds, we have something for everyone! </p>
+      <p>Visitors can learn about native and exotic animals while also understanding the importance of conservation. </p>
+      <p>With its combination of thrilling experiences and dedication to animal welfare, Australia Zoo remains a top tourist destination and a legacy of Steve Irwin’s passion for wildlife.</p>
+      </div>
       }
 
       {userHasClicked && currentAnimal && (

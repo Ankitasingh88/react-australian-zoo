@@ -27,7 +27,7 @@ const ReptilesContent = ({ userHasClicked, currentAnimal }) => {
     <div className={styles.reptilesContent}>
       {!userHasClicked && 
       <div>
-      <h1> Welcome On Reptile's Page 🦎🐍🐢</h1>
+      <h1> Welcome To Reptile's Page 🦎🐍🐢</h1>
       <p>Reptiles at Paradise’s Zoo have roamed the Earth for millions of years, adapting to extreme environments and developing incredible survival skills.</p>
       <p>At Pardise’s Zoo, you can witness some of the most powerful, unique, and rare reptiles, from giant lizards to majestic sea turtles!</p>
        </div>}
