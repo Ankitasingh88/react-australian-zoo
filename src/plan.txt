@@ -1,0 +1,24 @@
+Zoo Website Implementation Plan
+
+1. Project Setup
+   - Create React project using Vite
+   - Install required dependencies (react-router-dom)
+      -  installed phosphor-Icons for icons
+   - Set up project structure
+   - Initialize Git repository
+
+2. Data Structure Setup
+   - Create animals.js data file
+   - Structure animal data with:
+     * name
+     * image
+     * description
+     * group (mammal/bird/reptile)
+     * additional details
+   - Create helper functions for data manipulation.
+
+3. Add images on assets.
+
+4. COMPONENTS- 
+   Header: 
+   

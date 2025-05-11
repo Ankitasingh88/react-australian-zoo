@@ -14,6 +14,7 @@ const Navbar = () => {
 
   const handleCategoryClick = () => {
     setMenuOpen(false); // close menu when a link is clicked
+    setUserHasClicked(null);
   };
 
   return (
@@ -21,24 +22,13 @@ const Navbar = () => {
       <div className={styles.logo}>Paradise Zoo</div>
 
       <button
-        className={styles.hamburger}
-        onClick={() => setMenuOpen(!menuOpen)}
-        aria-label="Toggle menu"
-      >
-        ☰
+        className={styles.hamburger} onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle menu"> ☰
       </button>
 
       <div className={`${styles.links} ${menuOpen ? styles.open : ""}`}>
         {categories.map(({ name, path }) => (
           <NavLink
-            key={path}
-            to={path}
-            className={({ isActive }) =>
-              `${styles.link} ${isActive ? styles.active : ""}`
-            }
-            onClick={handleCategoryClick}
-          >
-            {name}
+            key={path} to={path} className={({ isActive }) =>`${styles.link} ${isActive ? styles.active : ""}`}onClick={handleCategoryClick}>{name}
           </NavLink>
         ))}
       </div>
