@@ -3,10 +3,10 @@ import VideoComponent from "../../components/VideoComponent";
 import Navbar from "../../components/Navbar";
 
 const Layout = ({ setUserHasClicked }) => {
-   const handleCategoryClick = () => {
+  const handleCategoryClick  = () => {
     setUserHasClicked(null);
   };
-
+  
   return (
     <>
       <VideoComponent />
@@ -17,3 +17,6 @@ const Layout = ({ setUserHasClicked }) => {
 };
 
 export default Layout;
+
+
+  

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import styles from "./MainContent.module.css";
 import { getImageURL } from "../../utils/functions";
 import AnimalModal from "../AnimalModal";

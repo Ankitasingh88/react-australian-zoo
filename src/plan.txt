@@ -15,10 +15,52 @@ Zoo Website Implementation Plan
      * description
      * group (mammal/bird/reptile)
      * additional details
-   - Create helper functions for data manipulation.
 
 3. Add images on assets.
 
 4. COMPONENTS- 
-   Header: 
-   
+   Header: - Create a reusable Header component for the Paradise Zoo website.
+   - Display a header image and title ("Paradise Zoo").
+   - Display Logo using Props: `img` (string) - name or path of the image to display
+
+   Animal Modal - Display detailed information about a selected animal in a modal popup.
+   - Allow users to close the modal using either of the two "Close" buttons or by clicking outside the modal.
+
+5. VideoComponent
+   - Video at Background And at video add some content  
+
+
+6. Navigation
+  - Using Navbar to Provide a responsive navigation bar for navigating between main pages (Home, Mammals, Birds, Reptiles) of the Zoo.
+   - Include a collapsible menu for smaller screen sizes (mobile-friendly hamburger menu).   
+
+   MainContent -  Display the main content area of the website.
+   - Show a welcome message initially, and detailed information about an animal when selected.
+   - Provide functionality to view more details in a modal and navigate to the animal's group page.
+      If `userHasClicked` is false: Display a welcome message and zoo introduction text
+   - If `userHasClicked` is true and `currentAnimal` is valid: Show the selected animal's image and details (name, description, diet)
+     - Display two buttons:
+       - One for navigating to the animal's group page (e.g., "/mammals")
+       - One for opening a modal with extended information
+     - When modal is open, render the `AnimalModal` component
+   - If `userHasClicked` is true but `currentAnimal` is null:
+     - Display fallback text: "No animal details available."
+   MainPage - Serve as the main layout container for the application.
+   - Integrate and display both the Sidebar (animal selection) and MainContent (animal details or welcome message).
+   - Pass necessary props between components to coordinate user interaction and content display.
+     
+   bird content, mammals content, reptiles content with page
+   - Display specific content in the Paradise Zoo.
+   - Show an introductory section for specific content when no content is selected.
+   - When a user selects, display its details with an option to view more in a modal or navigate to its group page.
+
+7. App.jsx
+   - Serve as the root component of the React application.
+   - Manages global state for selected animal and routing between different animal categories.
+   - Handles dynamic rendering of pages using React Router.
+
+8. Pages 
+  ---layout for wrap up 
+
+9. footer - 
+ ---- have some content on footer.              

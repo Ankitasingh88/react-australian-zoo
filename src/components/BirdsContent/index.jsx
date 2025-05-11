@@ -1,8 +1,7 @@
-import React from "react";
+import { useState } from "react";
 import styles from "./BirdsContent.module.css";
 import { getImageURL } from "../../utils/functions";
 import AnimalModal from "../AnimalModal";
-import { useState } from "react";
 
 const BirdsContent = ({ userHasClicked, currentAnimal }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
